@@ -1,0 +1,6 @@
+source 'http://rubygems.org'
+gem 'json'
+gem 'sinatra'
+gem 'thin'
+gem 'bundler'
+ruby '2.1.5'

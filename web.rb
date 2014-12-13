@@ -20,5 +20,5 @@ post '/:room' do
   content_type :text
   docker = JSON.parse(params[:payload])
   repo = docker['repository']
-  open("http://lingr.com/api/room/say?room=#{params[:room]}&bot=docker&text=[#{repo['repo_name']}]#{repo['repo_url']}&bot_verifier=1fe6460cd3a3e457b51c5f0c7f4023e4").read
+  open("http://lingr.com/api/room/say?room=#{params[:room]}&bot=docker&text=[#{repo['repo_name']}]#{repo['repo_url']}&bot_verifier=939ed21d76213881b45e2326ac89a99d64478d67").read
 end
